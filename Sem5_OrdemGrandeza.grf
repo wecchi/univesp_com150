@@ -1,0 +1,126 @@
+;This file was created by Graph (http://www.padowan.dk)
+;Do not change this file from other programs.
+[Graph]
+Version = 4.4.2.543
+MinVersion = 2.5
+OS = Windows NT 6.2 
+
+[Axes]
+xMin = -3.97958166861077
+xMax = 16.6277719987074
+xTickUnit = 1
+xGridUnit = 1
+yMin = -5.62093909846049
+yMax = 24.862218955232
+yTickUnit = 2
+yGridUnit = 2
+AxesColor = clBlue
+GridColor = 0x00FF9999
+ShowLegend = 1
+Radian = 1
+
+[Func1]
+FuncType = 0
+y = 1
+LegendText = f(n)=1
+From = 0
+To = 100
+Color = clSkyBlue
+
+[Func2]
+FuncType = 0
+y = log(log(x))
+LegendText = log(log(n))
+From = 0
+To = 100
+Color = clFuchsia
+
+[Func3]
+FuncType = 0
+y = log(x)
+LegendText = log(n)
+From = 0
+To = 100
+Color = clBlue
+
+[Func4]
+FuncType = 0
+y = x^(1/2)
+LegendText = n^1/2
+From = 0
+To = 100
+Color = clMaroon
+
+[Func5]
+FuncType = 0
+y = x
+LegendText = n
+From = 0
+To = 100
+Color = clGray
+
+[Func6]
+FuncType = 0
+y = x*log(x)
+LegendText = nlog(n)
+From = 0
+To = 100
+Color = clLime
+
+[Func7]
+FuncType = 0
+y = x^2
+LegendText = n^2
+From = 0
+To = 100
+Color = clRed
+
+[Func8]
+FuncType = 0
+y = x^3
+LegendText = n^3
+From = 0
+To = 100
+Color = clPurple
+
+[Func9]
+FuncType = 0
+y = 2^x
+LegendText = 2^n
+From = 0
+To = 100
+Color = clTeal
+
+[Func10]
+FuncType = 0
+y = 3^x
+LegendText = 3^n
+From = 0
+To = 100
+Color = clBlack
+
+[Func11]
+FuncType = 0
+y = gamma(x+1)
+LegendText = n!
+From = 1
+To = 100
+Color = clRed
+DrawType = 2
+
+[Func12]
+FuncType = 0
+y = x^x
+LegendText = n^n
+From = 0
+To = 100
+Color = 0x00FF6699
+
+[Data]
+TextLabelCount = 0
+FuncCount = 12
+PointSeriesCount = 0
+ShadeCount = 0
+RelationCount = 0
+OleObjectCount = 0
+
