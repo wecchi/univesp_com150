@@ -1,0 +1,55 @@
+;This file was created by Graph (http://www.padowan.dk)
+;Do not change this file from other programs.
+[Graph]
+Version = 4.4.2.543
+MinVersion = 2.5
+OS = Windows NT 6.2 
+
+[Axes]
+xMin = -2.91002630155314
+xMax = 16.5899736984469
+xTickUnit = 5
+xGridUnit = 1
+xAutoTick = 0
+xAutoGrid = 0
+xLabel = t
+yMin = 504.440876079824
+yMax = 18729.4408617999
+yTickUnit = 10000
+yGridUnit = 10000
+yAutoTick = 0
+yLabel = M
+AxesColor = clBlue
+GridColor = 0x00FF9999
+ShowLegend = 1
+Radian = 1
+
+[Func1]
+FuncType = 0
+y = 10000+600x
+From = 0
+To = 40
+Color = clTeal
+
+[Func2]
+FuncType = 0
+y = 10000*(1.05^x)
+From = 0
+To = 40
+Color = clRed
+
+[Label1]
+Placement = 0
+Pos = 8.47747567378797;14885.6244669452
+Text = {\\rtf1\\ansi\\ansicpg1252\\deff0\\deflang1046{\\fonttbl{\\f0\\fnil\\fcharset0 Verdana;}{\\f1\\fnil Times New Roman;}}\n{\\colortbl ;\\red0\\green0\\blue0;\\red0\\green128\\blue0;\\red255\\green0\\blue0;}\n\\viewkind4\\uc1\\pard\\cf1\\f0\\fs24 Ponto onde \\cf2\\b M\\sub A\\cf1\\nosupersub\\b0  e\\cf3\\b  M\\sub B\\cf1\\nosupersub\\b0\\par\n s\\'e3o iguais\\f1\\par\n}\n
+BackgroundColor = clNone
+ShowInLegend = 0
+
+[Data]
+TextLabelCount = 1
+FuncCount = 2
+PointSeriesCount = 0
+ShadeCount = 0
+RelationCount = 0
+OleObjectCount = 0
+
