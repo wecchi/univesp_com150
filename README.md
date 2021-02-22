@@ -9,7 +9,7 @@ Relações e conceitos de teoria de grafos. Modelagem de problemas usando grafos
 Relacionei os exercícios realizados no 4º bimestre/2020 durante as aulas da disciplina COM150 do Curso de Bacharel de Ciência de Dados da Univesp. Abaixo segue uma breve descrição do problema de negócios e da solução em Python (o link direciona para o código):
 
 1. [Relação de recorrência 1](Sem4_Recorrencia.py): Judith L Gersting (Seção 3.1). Exercícios diversos para estabelecer definições e obter soluções para relações recorrentes com uso de algoritmos recursivos.
-2. [Relação de recorrência 2](Sem4_formula_fechada_2_ordem): Judith L Gersting (Seção 3.2). Criando uma seguência com 4 casos básicos. Fórmula fechada de segunda ordem.
+2. [Relação de recorrência 2](Sem4_formula_fechada_2_ordem.py): Judith L Gersting (Seção 3.2). Criando uma seguência com 4 casos básicos. Fórmula fechada de segunda ordem.
 3. [Relação binária com matrizes](Sem5_Matriz.py): criação da classe Matrix e implementação de operadores lógicos e aritméticos, diagonal principal e secundária, características (ordem, identidade, triangular superior, triangular inferior). Cálculo da matriz de acessibilidade para grafos a partir da matriz boolena  de adjacência.
 4. [Conversor polonês ou "pré-ordem"](Sem6_infix_to_postfix.py): dada uma equação algébrica "em ordem" transformá-la em ordem polonesa ou "pré-ordem".
 5. [Conversor polonês inverso ou "pós-ordem"](Sem6_toRpn.py): dada uma equação algébrica "em ordem" transformá-la em ordem polonesa inversa ou "pós-ordem".
