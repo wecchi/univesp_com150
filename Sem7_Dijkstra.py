@@ -117,3 +117,9 @@ graph = Graph([
     ("c", "d", 9), ("c", "e", 6), ("d", "b", 7), ("e", "b", 4)])
 
 print(graph.dijkstra("d", "e"))
+
+"""
+Estrada = Graph([
+    ('Javadale', 'MemoryLake',4),('')
+])
+"""
